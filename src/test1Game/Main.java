@@ -32,8 +32,8 @@ public class Main extends SimpleApplication {
 
         rootNode.attachChild(geom);
 //        flyCam.setEnabled(false);
-    }
-
+    }//////
+//
     @Override
     public void simpleUpdate(float tpf) {
         
@@ -42,7 +42,7 @@ public class Main extends SimpleApplication {
     }
 
     @Override
-    public void simpleRender(RenderManager rm) {
+    public void simpleRender(RenderManager rm) {  //
         //TODO: add render code
     }
 }
